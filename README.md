@@ -2,11 +2,16 @@
 
 Old cell shield firmware may be from 2017 or 2019.
 
+Open the terminal window in DW Service.  Switch to root by typing:
+
 ```console
 su pi
+```
+Open the minicom terminal:
+
+```console
 sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
-
 Then, when the black screen appears, type (it might not echo) the following (in capitals):
 
 AT+CVERSION
