@@ -42,3 +42,15 @@ cd QFirehose_Linux_Android_V1.4.13;
 make;
 sudo ./QFirehose -f ..
 ```
+
+You might want to re-check the new firmware version again with:
+
+```console
+sudo minicom -D /dev/ttyUSB2 -b 115200
+```
+
+Then, when the black screen appears, type (it might not echo) the following (in capitals):
+
+AT+CVERSION
+
+Press Ctrl A + X to leave the minicom connection.
