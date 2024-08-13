@@ -3,9 +3,12 @@
 Old cell shield firmware may be from 2017 or 2019.
 
 ```console
-minicom -D /dev/ttyUSB2 -b 115200
-AT+CVERSION
+sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
+
+Then, when the black screen appears, type (it might not echo) the following:
+
+AT+CVERSION
 
 Press Ctrl A + X to leave the minicom connection.
 
