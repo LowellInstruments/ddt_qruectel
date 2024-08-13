@@ -6,13 +6,13 @@ Old cell shield firmware may be from 2017 or 2019.
 sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
 
-Then, when the black screen appears, type (it might not echo) the following:
+Then, when the black screen appears, type (it might not echo) the following (in capitals):
 
 AT+CVERSION
 
 Press Ctrl A + X to leave the minicom connection.
 
-If you need to update cell shield firmware version for ```EG25 modules``` (not EC25) just do:
+If you need to update cell shield firmware version (we have the newest 2022) for ```EG25 modules``` (not EC25) just do:
 
 ```console
 cd /home/pi/Downloads;
