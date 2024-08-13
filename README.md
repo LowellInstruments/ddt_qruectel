@@ -3,6 +3,7 @@
 Old cell shield firmware may be from 2017 or 2019.
 
 ```console
+su pi
 sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
 
