@@ -7,6 +7,8 @@ minicom -D /dev/ttyUSB2 -b 115200
 AT+CVERSION
 ```
 
+Press Ctrl A + X to leave the minicom connection.
+
 If you need to update cell shield firmware version for ```EG25 modules``` (not EC25) just do:
 
 ```console
