@@ -12,12 +12,17 @@ AT+CVERSION
 
 Press Ctrl A + X to leave the minicom connection.
 
+Check /home/pi/li for a ``ddt_quectel`` folder. You might already have it. Otherwise please do:
+
+```console
+cd /home/pi/li;
+git clone https://github.com/lowellinstruments/ddt_quectel.git;
+```
+
 If you need to update cell shield firmware version (we have the newest 2022) for ```EG25 modules``` (not EC25) just do:
 
 ```console
-cd /home/pi/Downloads;
-git clone https://github.com/lowellinstruments/ddt_quectel.git;
-cd ddt_quectel;
+cd /home/pi/li/ddt_quectel;
 unzip QFirehose_Linux_Android_V1.4.13.zip;
 unzip EG25GGBR07A08M2G_30.007.30.007.zip;
 cd QFirehose_Linux_Android_V1.4.13;
