@@ -58,3 +58,9 @@ Then, when the black screen appears, type (it might not echo) the following (in 
 AT+CVERSION
 
 Press Ctrl A + X to leave the minicom connection.
+
+Check that the cell connection is working:
+```console
+ping -I ppp0 www.google.com
+```
+
