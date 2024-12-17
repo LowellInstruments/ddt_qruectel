@@ -61,6 +61,6 @@ Press Ctrl A + X to leave the minicom connection.
 
 Check that the cell connection is working:
 ```console
-ping -I ppp0 www.google.com
+ping -I ppp0 www.google.com -4
 ```
 
