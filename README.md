@@ -64,3 +64,9 @@ Check that the cell connection is working:
 ping -I ppp0 www.google.com -4
 ```
 
+To Install SixFab Shield
+```console
+cdt
+cd _dt_files
+sudo ./ppp_install_sixfab.sh
+```
